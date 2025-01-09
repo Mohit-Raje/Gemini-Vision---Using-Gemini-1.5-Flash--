@@ -27,7 +27,7 @@ def response(input, img):
     return result.text
 
 # Main application content
-st.header("Gemini Image Application")
+st.header("Image-to-Text Translator")
 input_text = st.text_input("Input Prompt:", key="input")
 
 uploaded_image = st.file_uploader("Choose an image...", type=['jpg', 'jpeg', 'png'])
