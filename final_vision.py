@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 import streamlit as st
 import os
 import google.generativeai as genai
@@ -7,8 +6,6 @@ from PIL import Image
 # Set the page configuration (must be the first Streamlit command)
 st.set_page_config(page_title="Gemini Image Demo")
 
-# Load environment variables
-load_dotenv()
 
 # Sidebar for API key input
 st.sidebar.title("API Key Input")
