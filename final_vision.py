@@ -58,10 +58,16 @@ st.markdown(
             bottom: 0;
             left: 0;
             width: 100%;
-            background-color: #f1f1f1;
+            background-color: black;
+            color: white;
             text-align: center;
             padding: 10px 0;
             font-size: 14px;
+            z-index: 100;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
         }
         .footer img {
             width: 30px;
