@@ -48,3 +48,16 @@ if submit:
             st.error(f"Error generating response: {e}")
     else:
         st.error("Please enter a valid API Key in the sidebar.")
+
+
+st.markdown(
+    """
+    <div style="text-align: center; margin-top: 50px;">
+        <p><strong>Trademark © 2025 Mohit Raje </strong></p>
+        <a href="https://github.com/Mohit-Raje" target="_blank">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="50">
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
