@@ -52,10 +52,27 @@ if submit:
 
 st.markdown(
     """
-    <div style="text-align: center; margin-top: 50px;">
-        <p><strong>Trademark © 2025 Mohit Raje </strong></p>
+    <style>
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+        .footer img {
+            width: 30px;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+    </style>
+    <div class="footer">
+        <strong>Trademark © 2025 Mohit Raje</strong>
         <a href="https://github.com/Mohit-Raje" target="_blank">
-            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="50">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
         </a>
     </div>
     """,
